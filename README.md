@@ -1,6 +1,6 @@
 # glmmTMB function in mice simulation study
 
-This project tests a custom `mice.impute.2l.glmmTMB` function for multilevel multiple imputation and compares it with the existing `mice` `2l.lmer` method.
+In summary, this project tests a custom `mice.impute.2l.glmmTMB` function for multilevel multiple imputation and compares it with the existing `mice` `2l.lmer` method.
 
 The simulation focuses on two missing-data settings:
 - age and study hours missing (predictors);
@@ -29,4 +29,4 @@ Then change the values back before running the final simulation.
 - `03_plots.R` :  creates and saves the final figures.
 - `run_all.R` : sources the files in the correct order and runs the full project.
 
-The results are saved in `/simulation_results`, including the raw simulation results, tables, runtime results, and graphs.
+The results are saved in `/simulation_results` (folder created in the same project directory after running all the files in `run_all.R` in the correct order), including the raw simulation results, tables, runtime results, and graphs.
